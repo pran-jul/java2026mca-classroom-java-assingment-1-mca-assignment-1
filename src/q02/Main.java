@@ -21,7 +21,7 @@ public class Main {
                 
                 // Calculate the next number in the row using the binomial coefficient property:
                 // C(n, k+1) = C(n, k) * (n - k) / (k + 1)
-                number = number * (i - j) / (j + 1);
+                number = number * (1 - j) / (j + 1);
             }
             // Move to the next row
             System.out.println();
